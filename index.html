@@ -5,12 +5,14 @@
   <meta name="description" content="Descubre los avances tecnológicos en inteligencia artificial, robótica, informática, energía y criptomonedas.">
   <title>Xavaya.com - Página oficial de Xavaya</title>
   <style>
+    /* Estilos globales */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
     }
     
+    /* Estilos del encabezado */
     header {
       background-color: #f2f2f2;
       padding: 20px;
@@ -20,6 +22,7 @@
     h1 {
       margin: 0;
       color: #333333;
+      font-size: 24px;
     }
     
     nav ul {
@@ -39,17 +42,59 @@
       text-decoration: none;
       color: #333333;
       font-weight: bold;
+      font-size: 16px;
+      transition: color 0.3s;
     }
     
+    nav ul li a:hover {
+      color: #ff6600;
+    }
+    
+    /* Estilos del contenido principal */
     main {
       padding: 20px;
     }
     
+    h2 {
+      color: #333333;
+      font-size: 20px;
+    }
+    
+    p {
+      color: #666666;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    
+    /* Estilos del buscador */
+    .search-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .search-container input[type="text"] {
+      width: 300px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    .search-container input[type="submit"] {
+      background-color: #333333;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    /* Estilos del pie de página */
     footer {
       background-color: #333333;
       color: #ffffff;
       padding: 20px;
       text-align: center;
+      font-size: 14px;
     }
   </style>
 </head>
@@ -66,6 +111,13 @@
   </header>
   
   <main>
+    <div class="search-container">
+      <form action="#" method="get">
+        <input type="text" name="search" placeholder="Buscar...">
+        <input type="submit" value="Buscar">
+      </form>
+    </div>
+  
     <h2>Contenido principal</h2>
     <p>Aquí puedes agregar tu contenido principal.</p>
   </main>
